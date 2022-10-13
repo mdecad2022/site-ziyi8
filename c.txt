@@ -1,0 +1,88 @@
+    1  ssh-keygen
+    2  cd .ssh
+    3  ls-l
+    4  ls -l
+    5  exit
+    6  exit
+    7  exit
+    8  exit
+    9  ssh-keygen
+   10  cd .ssh
+   11  ls -l
+   12  ls -l
+   13  ls -l
+   14  cd ;
+   15  ls -l
+   16  ls -l
+   17  cd .ssh
+   18  ls -l
+   19  cd
+   20  dir
+   21  ls -l
+   22   cd 41023208
+   23  git clone --recurse-submodules git@github.com:mdecad2022/site-ziyi8.git
+   24  git config --global http.proxy 
+   25  git config --global 
+   26  git config --global http://p42.cycu.org:3128
+   27  git config --global proxy
+   28  ssh-keygen
+   29  cd .ssh
+   30  ls -l
+   31  cd ..
+   32  is -l
+   33  cd .ssh
+   34  is -l
+   35  cd ..
+   36  dir
+   37  dir
+   38  is -l
+   39  cd .ssh
+   40  is -l
+   41  ls -l
+   42  cd ..
+   43  dir
+   44  ls -l
+   45  cd cad41023208
+   46  cd site-ziyi8
+   47  ls -l
+   48  cd ..
+   49  ls -l
+   50  cd .ssh
+   51  ls -l
+   52  cd ..
+   53  git clone --recurse-submodules git@github.com:mdecad2022/site-ziyi8.git s
+   54  git clone --recurse-submodules git@github.com:mdecad2022/site-ziyi8.git q
+   55  git clone --recurse-submodules git@github.com:mdecad2022/site-ziyi8.git q
+   56  git clone --recurse-submodules git@demo:mdecad2022/site-ziyi8.git q
+   57  git clone --recurse-submodules git@github.com:mdecad2022/site-ziyi8.git qq
+   58  git clone --recurse-submodules git@github.com:mdecad2022/site-ziyi8.git qq
+   59  git clone --recurse-submodules git@github.com:mdecad2022/site-ziyi8.git qq
+   60  git clone --recurse-submodules git@github.com:mdecad2022/site-ziyi8.git qq
+   61  cd cmsimde
+   62  ls -l
+   63  cd s
+   64  cd cmsimde
+   65  ls -l
+   66  cd ..
+   67  ls -l
+   68  python3 server.py
+   69  chmod u+x acp
+   70  source acp "w6"
+   71  git config --global user.email "41023208@gm.nfu.edu.tw"
+   72  git config --global user.name "ziyi8"
+   73  source acp "w6"
+   74  python3 server.py&
+   75  ps aux|grep "server.py"
+   76  kill -9 125681
+   77  cd cmsimde
+   78  git pull origin master
+   79  cd ..
+   80  python3 server.py
+   81  cd config
+   82  ls -l
+   83  rm config
+   84  python3 server.py
+   85  cd ..
+   86  python3 server.py
+   87  python3 server.py&
+   88  history > c.txt

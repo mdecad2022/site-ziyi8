@@ -3,7 +3,12 @@
 <p>網站連結:<a href="https://mdecad2022.github.io/site-ziyi8/">https://mdecad2022.github.io/site-ziyi8/</a></p>
 <p></p><h1>HW</h1>
 <h2>w10</h2>
-<p><button id="add1to100">w10</button></p>
+<ol>
+<li>請問可否列出缺考人員名單?</li>
+<li>可否列出第一欄位為修課人員學號, 第二欄位為小考成績?</li>
+</ol>
+<div style="box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Web', sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px;"></div>
+<p><button id="add1to100">w10_1</button></p>
 <p></p>
 <!-- 導入 brython 程式庫 -->
 <p>
@@ -55,7 +60,7 @@ def run1():
     try:
         url = doc.query["src"]
     except:
-        url = "https://gist.githubusercontent.com/ziyi8/08c6436b52b32f4c667e1f7b890a9f88/raw/274a50b3b5c32c4b8fd5079f0e929cce907eb676/w10"
+        url = "https://gist.githubusercontent.com/ziyi8/864c913a0a1cd828d2a634997daa50c6/raw/13c8c44b481bdcee961584c3b8a28d58bb092c63/w10_1.py"
     prog = open(url).read()
 
     # 將程式載入編輯區
@@ -90,7 +95,7 @@ def clear_bd1(ev):
 # 利用 ace 中的 Editor 建立 Ace 物件, 其中的輸入變數分別對應到頁面中的編輯區物件
 Ace2 = ace.Editor(editor_id="kw_editor1", console_id="kw_console1", container_id="kw__container1", storage_id="kw_py_src1" )
 
-add1to100_url = "https://gist.githubusercontent.com/41023226/e73fe5a797fec1c3e3177be4567d9996/raw/934f8e356b9610f5db646f12510318821d90adb1/w11"
+add1to100_url = "https://gist.githubusercontent.com/ziyi8/864c913a0a1cd828d2a634997daa50c6/raw/13c8c44b481bdcee961584c3b8a28d58bb092c63/w10_1.py"
 
 # 從 gist 取得程式碼
 add_src = open(add1to100_url).read()
@@ -109,7 +114,7 @@ doc["add1to100"].bind('click', add)
 <div id="kw_editor1" style="width: 600px; height: 300px;"></div>
 <p><!-- 以下的表單與按鈕與前面的 Javascript doSave 函式以及 FileSaver.min.js 互相配合 --></p>
 <p><!-- 存擋表單開始 --></p>
-<form><label>Filename: <input id="kw_filename" placeholder="input file name" type="text"/>.py</label> <input onclick="doSave('kw_py_src1', 'kw_filename1');" type="submit" value="Save"/></form>
+<h4><label>Filename: <input id="kw_filename" placeholder="input file name" type="text"/>.py</label> <input onclick="doSave('kw_py_src1', 'kw_filename1');" type="submit" value="Save"/></h4>
 <p><!-- 存擋表單結束 --></p>
 <p></p>
 <p><!-- 執行與清除按鈕開始 --></p>
@@ -287,7 +292,7 @@ doc["add1to100"].bind('click', add)
 <p><!-- 程式執行 ouput 區 --></p>
 <div style="width: 100%; height: 100%;"><textarea autocomplete="off" id="kw_console1"></textarea></div>
 <div style="width: 100%; height: 100%;"></div>
-<h2 style="width: 100%; height: 100%;">w12</h2>
+<h2>w12</h2>
 <p><!-- Brython 程式執行的結果, 都以 brython_div 作為切入位置 --></p>
 <p></p>
 <p><!-- 判斷輸入字串是否aA1$, 且至少 8 個字元-開始 -->
@@ -368,14 +373,20 @@ run1()
 <li>點File點Site Manager</li>
 <li>把User改成cad學號</li>
 <li>按Connect輸入密碼</li>
-</ul>
-<p>NX繪圖</p>
-<ol>
-<li>Base clamp</li>
-</ol>
-<p></p>
-<p></p>
-<p></p><h1>Brython</h1>
+</ul><h2>nx</h2>
+<script>
+var winkVideoData = {
+  dataVersion: 1,
+  frameRate: 8,
+  buttonFrameLength: 4,
+  buttonFrameOffset: 2,
+  frameStops: {
+  },
+};
+</script>
+<!-- 接下來將 mp4 檔案從 downloads 目錄取出 -->
+<div class="winkVideoContainerClass"><video autoplay="autoplay" class="winkVideoClass" controls="controls" data-dirname="/cmsimde/static" data-varname="winkVideoData" height="600" muted="true" width="800">
+<source src="/downloads/1.mp4" type="video/mp4"/></video></div><h1>Brython</h1>
 <p><a href="https://en.wikipedia.org/wiki/Python_(programming_language)">https://en.wikipedia.org/wiki/Python_(programming_language)</a></p>
 <h4>Examples:</h4>
 <p style="padding-left: 30px;"><a href="https://gist.github.com/mdecycu/d9082d678096bd58378d6afe2c7fa05d">https://gist.github.com/mdecycu/d9082d678096bd58378d6afe2c7fa05d</a></p>

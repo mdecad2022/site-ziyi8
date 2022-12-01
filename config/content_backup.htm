@@ -3,11 +3,6 @@
 <p>網站連結:<a href="https://mdecad2022.github.io/site-ziyi8/">https://mdecad2022.github.io/site-ziyi8/</a></p>
 <p></p><h1>HW</h1>
 <h2>w10</h2>
-<ol>
-<li>請問可否列出缺考人員名單?</li>
-<li>可否列出第一欄位為修課人員學號, 第二欄位為小考成績?</li>
-</ol>
-<div style="box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Web', sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px;"></div>
 <p><button id="add1to100">w10</button></p>
 <p></p>
 <!-- 導入 brython 程式庫 -->
@@ -293,59 +288,28 @@ doc["add1to100"].bind('click', add)
 <div style="width: 100%; height: 100%;"><textarea autocomplete="off" id="kw_console1"></textarea></div>
 <div style="width: 100%; height: 100%;"></div>
 <h2>w12</h2>
-<p><!-- Brython 程式執行的結果, 都以 brython_div 作為切入位置 --></p>
-<p></p>
-<p><!-- 判斷輸入字串是否aA1$, 且至少 8 個字元-開始 -->
-<script type="text/python3">
-from browser import document as doc
-import ace
-
-# 清除畫布
-def clear_bd2(ev):
-    bd = doc["brython_div2"]
-    bd.clear()
-
-# 利用 ace 中的 Editor 建立 Ace 物件, 其中的輸入變數分別對應到頁面中的編輯區物件
-Ace3 = ace.Editor(editor_id="kw_editor2", console_id="kw_console2", container_id="kw__container2", storage_id="kw_py_src2" )
-
-check_str_url = "https://gist.githubusercontent.com/mdecourse/0229a8a017091476a79700b8a190f185/raw/56dc6a6b8eaa05b80994ac6f08ebc9326330be43/check_str_input_content_1.py"
-# 從 gist 取得程式碼
-check_src = open(check_str_url).read()
-
-def check_input(ev):
-    Ace3.editor.setValue(check_src)
-    Ace3.editor.scrollToRow(0)
-    Ace3.editor.gotoLine(0)
-    #Ace.run()
-
-# id 為 "check_input" 的按鈕點按時, 執行 check_input 方法
-doc["check_input"].bind('click', check_input)
-
-# 執行程式, 顯示輸出結果與清除輸出結果及對應按鈕綁定
-doc['kw_run2'].bind('click', Ace3.run)
-doc['kw_show_console2'].bind('click', Ace3.show_console)
-doc['kw_clear_console2'].bind('click', Ace3.clear_console)
-doc['clear_bd2'].bind('click', clear_bd2)
-# 呼叫函式執行
-run1()
+<h2>w13</h2>
+<p><img alt="" height="261" src="/images/base1.png" width="400"/></p>
+<p><img alt="" height="225" src="/images/base.png" width="400"/></p>
+<p><img alt="" height="290" src="/images/shaft1.png" width="400"/></p>
+<p><img alt="" height="275" src="/images/shaft.png" width="400"/></p>
+<p><img alt="" height="276" src="/images/link2.png" width="400"/></p>
+<p><img alt="" height="261" src="/images/link.png" width="400"/></p>
+<p><img alt="" height="275" src="/images/mix.png" width="400"/></p>
+<script>
+var winkVideoData = {
+  dataVersion: 1,
+  frameRate: 8,
+  buttonFrameLength: 4,
+  buttonFrameOffset: 2,
+  frameStops: {
+  },
+};
 </script>
-</p>
-<p><!-- 判斷輸入字串是否aA1$, 且至少 8 個字元-結束--></p>
-<!-- editor2 開始 -->
-<p><!-- 用來顯示程式碼的 editor 區域 --></p>
-<p></p>
-<p><!-- 執行與清除按鈕結束 --></p>
-<p></p>
-<p><!-- Brython 程式執行的結果, 都以 brython_div 作為切入位置 --></p>
-<div id="brython_div2"></div>
-<!-- editor2 結束 -->
-<p><!-- 導入 gearUtils-0.9.js Cango 齒輪繪圖程式庫 -->
-<script src="/static/Cango-24v03-min.js"></script>
-<script src="/static/gearUtils-09.js"></script>
-<script src="/static/SVGpathUtils-6v03-min.js"></script>
-<script src="/static/sylvester.js"></script>
-<script src="/static/PrairieDraw.js"></script>
-</p><h1>w6</h1>
+<!-- 接下來將 mp4 檔案從 downloads 目錄取出 -->
+<div class="winkVideoContainerClass"><video autoplay="autoplay" class="winkVideoClass" controls="controls" data-dirname="/cmsimde/static" data-varname="winkVideoData" height="600" muted="true" width="800">
+<source src="/downloads/video.mp4" type="video/mp4"/></video></div>
+<p></p><h1>w6</h1>
 <p></p>
 <p>設定動態網頁執行</p>
 <ol>
